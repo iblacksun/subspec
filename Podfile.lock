@@ -1,0 +1,21 @@
+PODS:
+  - IBWebView (0.0.1):
+    - IBWebView/Controller (= 0.0.1)
+  - IBWebView/Bridge (0.0.1):
+    - IBWebView/Controller
+  - IBWebView/Controller (0.0.1)
+
+DEPENDENCIES:
+  - IBWebView (from `.`)
+  - IBWebView/Bridge (from `.`)
+
+EXTERNAL SOURCES:
+  IBWebView:
+    :path: "."
+
+SPEC CHECKSUMS:
+  IBWebView: 68fe7a8b7b894b53e9a046a7879a885b21464751
+
+PODFILE CHECKSUM: d7b2c34c907f8b645c2e5c98d7b5a5a307d60370
+
+COCOAPODS: 1.5.2
